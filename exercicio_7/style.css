@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+    width: 350px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, hr {
+    align-self: center;
+}
+
+#description {
+    margin: 0 50px;
+    font-size: 0.9em;
+    color: grey;
+}
+
+h1, input {
+    margin-bottom: 16px;
+}
+
+form {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+hr {
+    color: rgb(197, 196, 196);
+    margin: 24px 0 48px 0;
+    width: 90%;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 8px;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    background-color: rgb(109, 142, 204);
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(140, 166, 214);
+}
+
+#statusbar {
+    margin-top: 24px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 0.9em;
+}
+
+.checkOk {
+    background-color: rgba(78, 141, 78, 0.8);
+}
+
+.checkNotOk {
+    background-color: rgba(214, 70, 70, 0.8);
+}
