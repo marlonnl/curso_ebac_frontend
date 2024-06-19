@@ -1,0 +1,11 @@
+.box {
+    width: 450px;
+    margin: 24px auto;
+    padding: 16px;
+    border: 1px solid cornflowerblue;
+    border-radius: 16px;
+}
+
+hr {
+    padding-bottom: 16px;
+}
