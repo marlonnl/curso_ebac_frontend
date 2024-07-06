@@ -1,0 +1,1 @@
+function concatenar(n,c){return n+c}module.exports=concatenar;
