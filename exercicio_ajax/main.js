@@ -25,4 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             following.innerText = json.following;
             profileurl.href = json.url;
         })
+        .catch(function(error) {
+            alert("Infelizmente ocorreu um erro ao acessar os dados do usuário no github.");
+        })
 })
